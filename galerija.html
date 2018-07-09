@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+    <title>Novičić dubinsko pranje</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+    
+    
+
+  </head>
+
+  <body>
+ <header>
+  <div class="row header-row">
+  <div class="col-lg-6">
+<a href="index.html" id="divSiteTitle">Dubinsko pranje Novičić</a>
+</div>
+<div class="col-lg-6">
+<div class="head-phone">
+<a class="call" href="tel:061/6067900">
+
+<span class="head-phone-section">Pozovite</span>
+<span class="head-phone-span">061/6067900</span>
+	</a></div></div></div>
+</header>
+
+    
+    <!-- border -->
+
+
+<span class="hoverCSS3">
+Galerija
+	  </span>
+	  
+    <br> 
+    <!-- Gallery -->
+<div class="row">
+
+<div class="col-lg-3">
+<div id="comparison">
+  <figure>
+    <div id="divisor"></div>
+  </figure>
+  <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
+</div></div>
+
+
+<div class="col-lg-3">
+<div id="comparison1">
+  <figure>
+    <div id="divisor1"></div>
+  </figure>
+  <input type="range" min="0" max="100" value="50" id="slider1" oninput="moveDivisor1()">
+</div></div>
+
+
+
+<div class="col-lg-3">
+<div id="comparison2">
+  <figure>
+    <div id="divisor2"></div>
+  </figure>
+  <input type="range" min="0" max="100" value="50" id="slider2" oninput="moveDivisor2()">
+</div></div>
+
+
+<div class="col-lg-3">
+<div id="comparison3">
+  <figure>
+    <div id="divisor3"></div>
+  </figure>
+  <input type="range" min="0" max="100" value="50" id="slider3" oninput="moveDivisor3()">
+</div></div>
+</div>
+<span class="hoverCSS3">
+Video
+	  </span>
+<br><br><br>
+
+<!-- VIDEO -->
+<div class="row">
+        <div class="col-sm-4 video" align="center" >
+          
+<video width="150" height="240" controls>
+  <source src="img/video.mp4" type="video/mp4">
+  <source src="video.ogg" type="video/ogg">
+</video>
+ </div>     
+
+ <div class="col-sm-4 video" align="center">
+          
+          <video width="150" height="240" controls>
+  <source src="img/movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+    </div> 
+
+ <div class="col-sm-4 video" align="center">
+          
+          <video width="270" height="240" controls>
+  <source src="img/dubinsko pranje neba citroen  ksare.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+</div>   </div>  
+<br>
+<br>
+
+
+
+<!-- FOOTER -->
+
+<footer class="py-2 bg-dark col-lg-12">
+      <div class="container">
+
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>  
+<script type="text/javascript">
+  var divisor = document.getElementById("divisor"),
+slider = document.getElementById("slider");
+function moveDivisor() { 
+  divisor.style.width = slider.value+"%";
+}
+
+
+  var divisor1 = document.getElementById("divisor1"),
+slider1 = document.getElementById("slider1");
+function moveDivisor1() { 
+  divisor1.style.width = slider1.value+"%";
+}
+
+
+  var divisor2 = document.getElementById("divisor2"),
+slider2 = document.getElementById("slider2");
+function moveDivisor2() { 
+  divisor2.style.width = slider2.value+"%";
+}
+
+  var divisor3 = document.getElementById("divisor3"),
+slider3 = document.getElementById("slider3");
+function moveDivisor3() { 
+  divisor3.style.width = slider3.value+"%";
+}
+</script>
+
+
+  </body>
+</html>
